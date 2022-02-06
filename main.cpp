@@ -246,10 +246,6 @@ namespace Utilities
         /* cannot overflow because out <= old value of *output_length */
         return punycode_success;
     }
-
-    std::u32string to_utf32(std::string str) {
-        return std::wstring_convert<std::codecvt_utf8<char32_t>, char32_t>{}.from_bytes(str);
-    }
 }
 
 namespace Punycode
