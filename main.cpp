@@ -1,13 +1,4 @@
 
-//============================================================================
-// Name        : PunycodeFinal.h
-// Created on  : 05.02.2022
-// Author      : Tokmakov Andrei
-// Version     : 1.0
-// Copyright   : Your copyright notice
-// Description : C++ Punycode tests
-//============================================================================
-
 #include <iostream>
 #include <string>
 #include <codecvt>
